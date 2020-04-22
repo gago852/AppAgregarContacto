@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">App Agregar Contacto</string>
+
+    <string name="contacto_nombre">Nombre:</string>
+    <string name="contacto_telefono">Telefono:</string>
+    
+    <string name="contacto_tipo">Tipo de telefono:</string>
+    <string name="tipo_casa">Casa</string>
+    <string name="tipo_movil">Movil</string>
+    <string name="tipo_trabajo">Trabajo</string>
+    
+    <string name="contacto_email">Email:</string>
+
+    <string name="bt_guardar">Guardar</string>
+    <string name="bt_limpiar">Limpiar</string>
 </resources>
