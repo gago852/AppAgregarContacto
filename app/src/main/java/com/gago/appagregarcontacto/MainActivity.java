@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinerTipoTelefono.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //aqui optenemos la posicion en el spiner para saber cual opcion escojio el usuario
+                //aqui obtenemos la posicion en el spiner para saber cual opcion escogio el usuario
                 switch (parent.getSelectedItemPosition()) {
                     case 0:
                         //aqui guardamos la constante que se refiere al tipo de telefono para casa
@@ -99,7 +99,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    //metoco solo para limpiar los campos
+    /**
+     * metodo solo para limpiar los campos
+     */
     private void limpiarCampo() {
         edNombre.setText("");
         edEmail.setText("");
